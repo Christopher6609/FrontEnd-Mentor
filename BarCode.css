@@ -1,0 +1,50 @@
+.bg{
+background-color:hsl(212, 45%, 89%);
+}
+html, body{
+	width:100%;
+	height:100%;
+
+}
+
+body{
+	display:flex;
+}
+
+#container{
+	margin:auto;
+	background-color:hsl(0, 0%, 100%);
+	height:450px;
+	width:274px;
+	border-radius:3%;
+}
+
+#barcode-holder{
+	padding:12px	
+}
+
+#barcode-holder > img {
+	border-radius:3%;	
+}
+
+#line1{
+
+}
+
+#first-para {
+	font-size:20px;
+	color:black;
+	font-weight:bolder;
+	text-align:center;
+	font-family:outfit;
+	color: hsl(218, 44%, 22%);
+}
+
+#second-para{
+text-align:center;
+font-size:14px;
+font-weight:lighter;
+color:grey;
+font-family:outfit;
+color:hsl(220, 15%, 55%);
+}
